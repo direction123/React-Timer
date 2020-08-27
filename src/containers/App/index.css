@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid lightseagreen;
+  width: 400px;
+  height: 650px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.btn {
+  width: 50%;
+  height: 50px;
+  background-color: lightseagreen;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.btn-group {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.number {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 300px;
+  position: relative;
+  bottom: 59px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: lightseagreen;
+  background-color: white;
+}
